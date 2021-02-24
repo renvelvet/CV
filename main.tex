@@ -1,0 +1,193 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% modern themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{black}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+%\usepackage[scale=0.8]{geometry}
+ \usepackage[left=2cm, right=2cm, top=1.7cm]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvheadnamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\usepackage{import}
+
+% personal data
+\name{Resha}{Puspita Dewi}
+
+\address{Jalan Cipamokolan 19 RT/RW 07/08 Bandung, 40292}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{WhatsApp: +6285624180916}      % optional, remove / comment the line if not wanted
+%\phone[fixed]{01234 123456}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{Email: reshapuspitadewi@gmail.com}   % optional, remove / comment the line if not wanted
+\social[linkedin]{linkedin.com/in/reshapuspita}     % optional, remove / comment the line if not wanted
+\social[github]{github.com/renvelvet}               % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle 
+\vspace{-10pt}
+% Undergraduate student who taking Information System and Technology major. In progress on pursuing career in technology industry, especially IoT. Love to be part of an smart city industry where skills, knowledge, and experience can be fused in dynamic environment.\\
+% { \textbf{Expertise}: Marketing online et offline, Coordination des projets, Branding, Merchandising.\\
+% \textbf{Projets réalisés}:http://gnt.globo.com/especiais/projetos-multitelas}
+\section{Skills}
+
+\vspace{1pt}
+
+\begin{itemize}
+
+\item \textbf{Platform:} Windows, Linux Ubuntu
+
+\vspace{1pt}
+
+\item \textbf{Programming Languages:} Java, JavaScript, Kotlin, C++
+
+\vspace{1pt}
+
+\item \textbf{Web Frontend Technologies:} ReactJS, Bootstrap, Bulma
+
+\vspace{1pt}
+
+\item \textbf{Databases:} MySQL, MongoDB, Postgresql
+
+\vspace{1pt}
+
+\item \textbf{Embedded Engineering:} ESP32
+
+\vspace{1pt}
+
+\item \textbf{Patterns \& Practices:} Object-Oriented Programming, Functional Programming
+
+\vspace{1pt}
+
+\item \textbf{Tools:} Visual Studio Code, IntelliJ IDEA, Sublime Text, Arduino IDE, Figma, Fritzing
+
+\vspace{1pt}
+
+\end{itemize}
+
+\section{Experiences}
+
+\vspace{4pt}
+
+\begin{itemize}
+
+\item{\cventry{Oct 2020 -- Oct 2020}{Part-Time Remote Junior Full Stack Developer}{Teknologi Bangun Indonesia}{Remote}{}{\vspace{3pt} 
+\begin{itemize}
+\item Assigned to handle cron job in serverless architecture
+\end{itemize}
+}}
+
+\vspace{4pt}
+
+\item{\cventry{August 2020 -- Oct 2020}{Front End Programmer Intern}{Loker Programmer}{}{}{\vspace{3pt}
+\begin{itemize}
+\item  Project based internship
+\item  Slicing UI design provided by UI designer team
+\item  Implement interactive website using React Js
+\end{itemize}
+}}
+
+\vspace{4pt}
+
+\item{\cventry{April 2019 -- June 2019}{Scrum Master Intern}{ProBotDev Sdn Bhd}{}{}{\vspace{3pt}
+\begin{itemize}
+\item  Manage team's boards using GitScrum 
+\item  Communicate with project owner
+\item  Held daily stand up, sprint review, etc
+\end{itemize}
+}}
+
+\end{itemize}
+
+\section{Projects}
+
+\vspace{4pt}
+
+\begin{itemize}
+
+\item{\cventry{December 2020}{Final Project Digital Talent Incubator (DTI) Program}{Travelimo (API)}{Telkom DTI}{}{\vspace{3pt} 
+\begin{abstract}
+Create API for travel app using Node Js and Express Framework. Handle CRUD, 'search' and 'booking' feature for 2 modules
+\end{abstract}
+}}
+
+\vspace{4pt}
+
+\item{\cventry{August 2020}{Final Project Full Stack Web Bootcamp}{Digitarian (Web App)}{Impact Byte}{}{\vspace{3pt} 
+\begin{abstract}
+Web app similiar to Patreon with minimum feature using MERN stack. Role as front-end developer and team leader with 4 team members.
+\end{abstract}
+}}
+
+\end{itemize}
+
+\vspace{2pt}
+
+\section{Education}
+
+\vspace{4pt}
+
+\cventry{}{Information System and Technology}{Institut Teknologi Bandung}{Auguts 2017 -- Present}{}{\vspace{3pt}}
+
+\section{Training/Certifications}
+\vspace{4pt}
+
+\begin{itemize}
+\item{\cventry{Feb 2021 -- Present}{Mobile Developer (Android) Cohort}{Bangkit Academy led by Google, Tokopedia, Gojek, and Traveloka}{}{}{\vspace{3pt} }}
+\item{\cventry{Sep 2020 -- Dec 2020}{Backend Developer Talent}{Telkom Digital Talent Incubator}{}{}{\vspace{3pt} }}
+\item{\cventry{June 2020 -- August 2020}{Full Stack Web Graduate}{Impact Byte}{}{}{\vspace{3pt} }}
+\end{itemize}
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+%-----       letter       ---------------------------------------------------------
+
+\end{document}
+
+
+%% end of file `template.tex'.
